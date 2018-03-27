@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background white color for app -->
+    <color name="primary_color1">#FFFFFF</color>
+
+    <!-- Background color for app -->
+    <color name="background">#BDBDBD</color>
+
+    <!-- Background color for the andrew playlist category -->
+    <color name="category_andrew">#FF9100</color>
+
+    <!-- Background color for the roxana  playlist category -->
+    <color name="category_roxana">#AEEA00</color>
+
+    <!-- Background color for the razvan playlist category -->
+    <color name="category_razvan">#7E57C2</color>
+
+    <!-- Background color for the cristina  playlist category -->
+    <color name="category_cristina">#5C6BC0</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_hiphop">#16AFCA</color>
+    <color name="gray">#ECEFF1</color>
+</resources>

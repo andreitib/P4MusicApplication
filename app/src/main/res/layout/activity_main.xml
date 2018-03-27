@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.p4musicapplication.MainActivity">
+
+        <TextView
+            android:id="@+id/andrew"
+            style="@style/categorystyle"
+            android:background="@color/category_andrew"
+            android:text="@string/andrewplaylist" />
+
+        <TextView
+            android:id="@+id/roxana"
+            style="@style/categorystyle"
+            android:background="@color/category_roxana"
+            android:text="@string/roxanaplaylist" />
+
+        <TextView
+            android:id="@+id/razvan"
+            style="@style/categorystyle"
+            android:background="@color/category_razvan"
+            android:text="@string/razvanplaylist" />
+
+        <TextView
+            android:id="@+id/cristina"
+            style="@style/categorystyle"
+            android:background="@color/category_cristina"
+            android:text="@string/cristinaplaylist" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.p4musicapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AndrewActivity"
+            android:label="@string/andrewplaylist" />
+        <activity
+            android:name=".RoxanaActivity"
+            android:label="@string/roxanaplaylist" />
+        <activity
+            android:name=".RazvanActivity"
+            android:label="@string/razvanplaylist" />
+        <activity
+            android:name=".CristinaActivity"
+            android:label="@string/cristinaplaylist" />
+        <activity
+            android:name=".PlayingNow"
+            android:label="@string/title_activity_now_is_playing"
+            android:parentActivityName=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

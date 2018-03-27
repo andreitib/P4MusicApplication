@@ -1,0 +1,23 @@
+
+<resources>
+    <!-- Title for the application.  -->
+    <string name="app_name">Andrei Music App</string>
+
+    <!-- Category name for Andrew favorite playlist -->
+    <string name="andrewplaylist">Andrew Favorite Playlist</string>
+
+    <!-- Category name for Roxana favorite playlist -->
+    <string name="roxanaplaylist">Roxana Favorite Playlist</string>
+
+    <!-- Category name for Razvan favorite playlist -->
+    <string name="razvanplaylist">Razvan Favorite Playlist</string>
+
+    <!-- Category name for Cristina favorite playlist -->
+    <string name="cristinaplaylist">Cristina Favorite Playlist</string>
+
+    <string name="title_activity_now_is_playing">Now Is Playing</string>
+
+    <string name="mainhome">mainhome</string>
+
+
+</resources>
