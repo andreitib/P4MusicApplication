@@ -34,22 +34,7 @@ public class PlayingNow extends AppCompatActivity {
         // Initiate views
         mySeekBar =(SeekBar)findViewById(R.id.mySeekBar);
 
-        // Perform seek bar change listener event used for getting the progress value
-        mySeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-            int progressValue = 0;
 
-            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                progressValue = progress;
-            }
-
-            public void onStopTrackingTouch(SeekBar seekBar) {
-                Toast.makeText(PlayingNow.this, progressValue + "% of seek bar",
-                        Toast.LENGTH_SHORT).show();
-            }
-            public void onStartTrackingTouch(SeekBar seekBar) {
-                Toast.makeText(getApplicationContext(),"Seekbar is on!", Toast.LENGTH_SHORT).show();
-            }
-        });
     }
 
 }
