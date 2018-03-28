@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
-import android.widget.Toast;
 
 public class PlayingNow extends AppCompatActivity {
 
@@ -29,11 +28,6 @@ public class PlayingNow extends AppCompatActivity {
             }
 
         });
-
-        // Initiate views
-        mySeekBar = (SeekBar) findViewById(R.id.mySeekBar);
-
-
     }
 
 }
