@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link RazvanActivity}
-                Intent razvanIntent = new Intent(MainActivity.this,RazvanActivity.class);
+                Intent razvanIntent = new Intent(MainActivity.this, RazvanActivity.class);
 
                 // Start the new activity
                 startActivity(razvanIntent);

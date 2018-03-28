@@ -10,7 +10,6 @@ import android.widget.Toast;
 
 public class PlayingNow extends AppCompatActivity {
 
-    Button submitButton;
     SeekBar mySeekBar;
 
     @Override
@@ -32,7 +31,7 @@ public class PlayingNow extends AppCompatActivity {
         });
 
         // Initiate views
-        mySeekBar =(SeekBar)findViewById(R.id.mySeekBar);
+        mySeekBar = (SeekBar) findViewById(R.id.mySeekBar);
 
 
     }

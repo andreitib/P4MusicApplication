@@ -31,8 +31,7 @@
         <activity
             android:name=".PlayingNow"
             android:label="@string/title_activity_now_is_playing"
-            android:parentActivityName=".MainActivity">
-        </activity>
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
